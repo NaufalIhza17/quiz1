@@ -32,7 +32,7 @@ const Home: NextPage = () => {
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
-            href="/hometown"
+            href=""
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400"
           >
             <h3 className="text-2xl font-bold">Profile &rarr;</h3>
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href=""
+            href="/hometown"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400"
           >
             <h3 className="text-2xl font-bold">Hometown &rarr;</h3>
