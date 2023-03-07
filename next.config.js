@@ -6,7 +6,7 @@ module.exports = {
     return [
       {
         source: '/',
-        destination: '/quiz1.tsx',
+        destination: '/quiz1',
         permanent: true,
       },
     ];
