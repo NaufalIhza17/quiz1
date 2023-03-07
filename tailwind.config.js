@@ -6,7 +6,16 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'malangsatu': "url('/malangsatu.jpg')",
+        'malangdua': "url('/malangdua.jpg')",
+        'malangtiga': "url('/malangtiga.jpg')",
+        'malangempat': "url('/malangempat.jpg')",
+        'malanglima': "url('/malanglima.jpg')",
+        'malangenam': "url('/malangenam.jpg')",
+      }
+    },
   },
   plugins: [],
 }

@@ -13,18 +13,17 @@ const Home: NextPage = () => {
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         
         <h1 className="text-6xl font-bold">
-          Hi! Get To Know Me,{' '}
-          <span className="text-green-400">
-            Naufal Ihza
-          </span>
+          Hi! Get To Know Me
+        </h1>
+        <h1 className="text-green-400 text-6xl font-bold">
+          Naufal Ihza
         </h1>
 
         {/* NAVBAR START */}
 
         <p className="mt-3 text-2xl">
-          Get started by editing{' '}
           <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
+            Personal Website
           </code>
         </p>
 
@@ -32,40 +31,40 @@ const Home: NextPage = () => {
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
-            href=""
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400"
+            href="/quiz1/profile"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group"
           >
-            <h3 className="text-2xl font-bold">Profile &rarr;</h3>
+            <h3 className="text-2xl font-bold group-hover:translate-x-24 transition">Profile &rarr;</h3>
             <p className="mt-4 text-xl">
               Get to know me here!
             </p>
           </a>
 
           <a
-            href="/hometown"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400"
+            href="/quiz1/hometown"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group"
           >
-            <h3 className="text-2xl font-bold">Hometown &rarr;</h3>
+            <h3 className="text-2xl font-bold group-hover:translate-x-24 transition">Hometown &rarr;</h3>
             <p className="mt-4 text-xl">
               Wanna know where do I come from?
             </p>
           </a>
 
           <a
-            href=""
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400"
+            href="/quiz1/food"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group"
           >
-            <h3 className="text-2xl font-bold">Food &rarr;</h3>
+            <h3 className="text-2xl font-bold group-hover:translate-x-24 transition">Food &rarr;</h3>
             <p className="mt-4 text-xl">
-              Yummy food that I approved!
+              Yummy local food that I approved!
             </p>
           </a>
 
           <a
-            href=""
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400"
+            href="/quiz1/tourist"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group"
           >
-            <h3 className="text-2xl font-bold">Tourist &rarr;</h3>
+            <h3 className="text-2xl font-bold group-hover:translate-x-24 transition">Tourist &rarr;</h3>
             <p className="mt-4 text-xl">
               Saving my whole life for this one...
             </p>
@@ -79,8 +78,8 @@ const Home: NextPage = () => {
           <a href="https://www.instagram.com/ihzasyahzada/">
             <Image src="/instagram.png" alt="Vercel Logo" width={32.4} height={7.2} />
           </a>
-          <a href="https://www.instagram.com/ihzasyahzada/">
-            <Image src="/twitter.png" alt="Vercel Logo" width={32.4} height={7.2} />
+          <a href="https://github.com/NaufalIhza17">
+            <Image src="/github.png" alt="Vercel Logo" width={32.4} height={7.2} />
           </a>
           <a href="https://www.linkedin.com/in/m-naufal-ihza-syahzada-b266a9217/">
             <Image src="/linkedin.png" alt="Vercel Logo" width={32.4} height={7.2} />
