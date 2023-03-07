@@ -14,6 +14,8 @@ module.exports = {
         'malangempat': "url('/malangempat.jpg')",
         'malanglima': "url('/malanglima.jpg')",
         'malangenam': "url('/malangenam.jpg')",
+        'baksobakar': "url('/baksobakar.jpg')",
+        'kripiktempe': "url('/kripiktempe.jpg')",
       }
     },
   },

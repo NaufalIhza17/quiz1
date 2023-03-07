@@ -32,40 +32,40 @@ const Home: NextPage = () => {
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="/quiz1/profile"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group/d"
           >
-            <h3 className="text-2xl font-bold group-hover:translate-x-24 transition">Profile &rarr;</h3>
-            <p className="mt-4 text-xl">
+            <h3 className="text-2xl font-bold group-hover/d:animate-bounce transition">Profile &rarr;</h3>
+            <p className="mt-4 text-xl group-hover/d:animate-bounce transition">
               Get to know me here!
             </p>
           </a>
 
           <a
             href="/quiz1/hometown"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group/a"
           >
-            <h3 className="text-2xl font-bold group-hover:translate-x-24 transition">Hometown &rarr;</h3>
-            <p className="mt-4 text-xl">
+            <h3 className="text-2xl font-bold group-hover/a:animate-bounce transition">Hometown &rarr;</h3>
+            <p className="mt-4 text-xl group-hover/a:animate-bounce transition">
               Wanna know where do I come from?
             </p>
           </a>
 
           <a
             href="/quiz1/food"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group/b"
           >
-            <h3 className="text-2xl font-bold group-hover:translate-x-24 transition">Food &rarr;</h3>
-            <p className="mt-4 text-xl">
+            <h3 className="text-2xl font-bold group-hover/b:animate-bounce transition">Food &rarr;</h3>
+            <p className="mt-4 text-xl group-hover/b:animate-bounce transition">
               Yummy local food that I approved!
             </p>
           </a>
 
           <a
             href="/quiz1/tourist"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-green-400 focus:text-green-400 group/c"
           >
-            <h3 className="text-2xl font-bold group-hover:translate-x-24 transition">Tourist &rarr;</h3>
-            <p className="mt-4 text-xl">
+            <h3 className="text-2xl font-bold group-hover/c:animate-bounce transition">Tourist &rarr;</h3>
+            <p className="mt-4 text-xl group-hover/c:animate-bounce transition">
               Saving my whole life for this one...
             </p>
           </a>

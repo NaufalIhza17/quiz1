@@ -21,12 +21,12 @@ const Town: NextPage = () => {
                     </div>
                     <div className='w-screen max-w-full'>
                         <div className="mx-5 grid grid-cols-3 gap-10 place-content-center text-center">
-                            <div className='hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malangsatu bg-cover'>01</div>
-                            <div className="hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malangdua bg-cover">02</div>
-                            <div className="hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malangtiga bg-cover">03</div>
-                            <div className="hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malangempat bg-cover">01</div>
-                            <div className="hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malanglima bg-cover">02</div>
-                            <div className="hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malangenam bg-cover">03</div>
+                            <div className='hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malangsatu bg-cover'/>
+                            <div className="hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malangdua bg-cover"/>
+                            <div className="hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malangtiga bg-cover"/>
+                            <div className="hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malangempat bg-cover"/>
+                            <div className="hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malanglima bg-cover"/>
+                            <div className="hover:scale-105 transition border-2 border-neutral-900 py-32 rounded-lg bg-malangenam bg-cover"/>
                         </div>
                     </div>
                     <div className='w-screen max-w-full items-center px-20 text-center pt-36 pb-36'>
