@@ -19,15 +19,11 @@ const Home: NextPage = () => {
           Naufal Ihza
         </h1>
 
-        {/* NAVBAR START */}
-
         <p className="mt-3 text-2xl">
           <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
             Personal Website
           </code>
         </p>
-
-        {/* NAVBAR END */}
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a

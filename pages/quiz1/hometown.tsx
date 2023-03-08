@@ -31,7 +31,7 @@ const Town: NextPage = () => {
                     </div>
                     <div className='w-screen max-w-full items-center px-20 text-center pt-36 pb-36'>
                         <h1 className='text-4xl font-bold'>These are photos that are taken in this lovely city...</h1>
-                        <h1 className='text-2xl font-medium pt-2 text-cyan-600'>The reason I fell in love with my hometown is not becuse the place, but the things arround me..</h1>
+                        <h1 className='text-2xl font-medium pt-2 text-cyan-600'>The reason I fell in love with my hometown is not because the place, but the things around me..</h1>
                     </div>
                 </section>
             </main>
